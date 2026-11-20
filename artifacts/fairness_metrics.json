@@ -1,0 +1,592 @@
+{
+  "baseline_model": {
+    "model_name": "Baseline (Model 1)",
+    "attributes": {
+      "Sex": {
+        "group_metrics": [
+          {
+            "group_code": 0,
+            "group_name": "Female",
+            "n": 5718,
+            "selection_rate": 0.4923,
+            "tpr": 0.759,
+            "fpr": 0.2487,
+            "fnr": 0.241,
+            "accuracy": 0.755,
+            "mean_predicted_prob": 0.4831
+          },
+          {
+            "group_code": 1,
+            "group_name": "Male",
+            "n": 4886,
+            "selection_rate": 0.5495,
+            "tpr": 0.7741,
+            "fpr": 0.2999,
+            "fnr": 0.2259,
+            "accuracy": 0.7391,
+            "mean_predicted_prob": 0.5235
+          }
+        ],
+        "demographic_parity_difference": 0.0572,
+        "equalized_odds_difference": 0.0512,
+        "max_tpr_difference": 0.0151,
+        "max_fpr_difference": 0.0512
+      },
+      "Age": {
+        "group_metrics": [
+          {
+            "group_code": 1,
+            "group_name": "18-24",
+            "n": 136,
+            "selection_rate": 0.0294,
+            "tpr": 0.1429,
+            "fpr": 0.0233,
+            "fnr": 0.8571,
+            "accuracy": 0.9338,
+            "mean_predicted_prob": 0.1145
+          },
+          {
+            "group_code": 2,
+            "group_name": "25-29",
+            "n": 231,
+            "selection_rate": 0.0649,
+            "tpr": 0.2308,
+            "fpr": 0.0439,
+            "fnr": 0.7692,
+            "accuracy": 0.8745,
+            "mean_predicted_prob": 0.1631
+          },
+          {
+            "group_code": 3,
+            "group_name": "30-34",
+            "n": 312,
+            "selection_rate": 0.0929,
+            "tpr": 0.3953,
+            "fpr": 0.0446,
+            "fnr": 0.6047,
+            "accuracy": 0.8782,
+            "mean_predicted_prob": 0.192
+          },
+          {
+            "group_code": 4,
+            "group_name": "35-39",
+            "n": 433,
+            "selection_rate": 0.1801,
+            "tpr": 0.4167,
+            "fpr": 0.1015,
+            "fnr": 0.5833,
+            "accuracy": 0.7783,
+            "mean_predicted_prob": 0.272
+          },
+          {
+            "group_code": 5,
+            "group_name": "40-44",
+            "n": 511,
+            "selection_rate": 0.2681,
+            "tpr": 0.5449,
+            "fpr": 0.1337,
+            "fnr": 0.4551,
+            "accuracy": 0.7613,
+            "mean_predicted_prob": 0.3401
+          },
+          {
+            "group_code": 6,
+            "group_name": "45-49",
+            "n": 669,
+            "selection_rate": 0.3109,
+            "tpr": 0.6266,
+            "fpr": 0.1332,
+            "fnr": 0.3734,
+            "accuracy": 0.7803,
+            "mean_predicted_prob": 0.3676
+          },
+          {
+            "group_code": 7,
+            "group_name": "50-54",
+            "n": 1069,
+            "selection_rate": 0.4004,
+            "tpr": 0.6545,
+            "fpr": 0.1812,
+            "fnr": 0.3455,
+            "accuracy": 0.7428,
+            "mean_predicted_prob": 0.4316
+          },
+          {
+            "group_code": 8,
+            "group_name": "55-59",
+            "n": 1291,
+            "selection_rate": 0.5019,
+            "tpr": 0.7641,
+            "fpr": 0.2604,
+            "fnr": 0.2359,
+            "accuracy": 0.7514,
+            "mean_predicted_prob": 0.4943
+          },
+          {
+            "group_code": 9,
+            "group_name": "60-64",
+            "n": 1490,
+            "selection_rate": 0.557,
+            "tpr": 0.7564,
+            "fpr": 0.2864,
+            "fnr": 0.2436,
+            "accuracy": 0.7383,
+            "mean_predicted_prob": 0.5378
+          },
+          {
+            "group_code": 10,
+            "group_name": "65-69",
+            "n": 1643,
+            "selection_rate": 0.6324,
+            "tpr": 0.8251,
+            "fpr": 0.3648,
+            "fnr": 0.1749,
+            "accuracy": 0.7456,
+            "mean_predicted_prob": 0.5833
+          },
+          {
+            "group_code": 11,
+            "group_name": "70-74",
+            "n": 1156,
+            "selection_rate": 0.7197,
+            "tpr": 0.8491,
+            "fpr": 0.4695,
+            "fnr": 0.1509,
+            "accuracy": 0.7405,
+            "mean_predicted_prob": 0.6279
+          },
+          {
+            "group_code": 12,
+            "group_name": "75-79",
+            "n": 809,
+            "selection_rate": 0.7367,
+            "tpr": 0.8501,
+            "fpr": 0.5464,
+            "fnr": 0.1499,
+            "accuracy": 0.7021,
+            "mean_predicted_prob": 0.6441
+          },
+          {
+            "group_code": 13,
+            "group_name": "80+",
+            "n": 854,
+            "selection_rate": 0.7681,
+            "tpr": 0.856,
+            "fpr": 0.6353,
+            "fnr": 0.144,
+            "accuracy": 0.6604,
+            "mean_predicted_prob": 0.6598
+          }
+        ],
+        "demographic_parity_difference": 0.7387,
+        "equalized_odds_difference": 0.7131,
+        "max_tpr_difference": 0.7131,
+        "max_fpr_difference": 0.612
+      },
+      "Income": {
+        "group_metrics": [
+          {
+            "group_code": 1,
+            "group_name": "<$10k",
+            "n": 554,
+            "selection_rate": 0.7202,
+            "tpr": 0.8655,
+            "fpr": 0.4569,
+            "fnr": 0.1345,
+            "accuracy": 0.7509,
+            "mean_predicted_prob": 0.654
+          },
+          {
+            "group_code": 2,
+            "group_name": "$10-15k",
+            "n": 674,
+            "selection_rate": 0.819,
+            "tpr": 0.9165,
+            "fpr": 0.5795,
+            "fnr": 0.0835,
+            "accuracy": 0.773,
+            "mean_predicted_prob": 0.7118
+          },
+          {
+            "group_code": 3,
+            "group_name": "$15-20k",
+            "n": 817,
+            "selection_rate": 0.7307,
+            "tpr": 0.8787,
+            "fpr": 0.4484,
+            "fnr": 0.1213,
+            "accuracy": 0.7662,
+            "mean_predicted_prob": 0.6396
+          },
+          {
+            "group_code": 4,
+            "group_name": "$20-25k",
+            "n": 971,
+            "selection_rate": 0.6797,
+            "tpr": 0.8534,
+            "fpr": 0.422,
+            "fnr": 0.1466,
+            "accuracy": 0.7425,
+            "mean_predicted_prob": 0.6018
+          },
+          {
+            "group_code": 5,
+            "group_name": "$25-35k",
+            "n": 1239,
+            "selection_rate": 0.6094,
+            "tpr": 0.7792,
+            "fpr": 0.3873,
+            "fnr": 0.2208,
+            "accuracy": 0.707,
+            "mean_predicted_prob": 0.5651
+          },
+          {
+            "group_code": 6,
+            "group_name": "$35-50k",
+            "n": 1551,
+            "selection_rate": 0.5287,
+            "tpr": 0.7661,
+            "fpr": 0.2816,
+            "fnr": 0.2339,
+            "accuracy": 0.7427,
+            "mean_predicted_prob": 0.5017
+          },
+          {
+            "group_code": 7,
+            "group_name": "$50-75k",
+            "n": 1630,
+            "selection_rate": 0.4577,
+            "tpr": 0.6971,
+            "fpr": 0.2454,
+            "fnr": 0.3029,
+            "accuracy": 0.7276,
+            "mean_predicted_prob": 0.4609
+          },
+          {
+            "group_code": 8,
+            "group_name": "$75k+",
+            "n": 3168,
+            "selection_rate": 0.3065,
+            "tpr": 0.6068,
+            "fpr": 0.1488,
+            "fnr": 0.3932,
+            "accuracy": 0.767,
+            "mean_predicted_prob": 0.3604
+          }
+        ],
+        "demographic_parity_difference": 0.5125,
+        "equalized_odds_difference": 0.4307,
+        "max_tpr_difference": 0.3097,
+        "max_fpr_difference": 0.4307
+      }
+    }
+  },
+  "trustworthy_model": {
+    "model_name": "Trust-Aware (Model 2)",
+    "attributes": {
+      "Sex": {
+        "group_metrics": [
+          {
+            "group_code": 0,
+            "group_name": "Female",
+            "n": 5718,
+            "selection_rate": 0.4871,
+            "tpr": 0.7527,
+            "fpr": 0.2443,
+            "fnr": 0.2473,
+            "accuracy": 0.7543,
+            "mean_predicted_prob": 0.479
+          },
+          {
+            "group_code": 1,
+            "group_name": "Male",
+            "n": 4886,
+            "selection_rate": 0.5426,
+            "tpr": 0.7679,
+            "fpr": 0.2921,
+            "fnr": 0.2321,
+            "accuracy": 0.7395,
+            "mean_predicted_prob": 0.5189
+          }
+        ],
+        "demographic_parity_difference": 0.0555,
+        "equalized_odds_difference": 0.0478,
+        "max_tpr_difference": 0.0152,
+        "max_fpr_difference": 0.0478
+      },
+      "Age": {
+        "group_metrics": [
+          {
+            "group_code": 1,
+            "group_name": "18-24",
+            "n": 136,
+            "selection_rate": 0.0294,
+            "tpr": 0.1429,
+            "fpr": 0.0233,
+            "fnr": 0.8571,
+            "accuracy": 0.9338,
+            "mean_predicted_prob": 0.1146
+          },
+          {
+            "group_code": 2,
+            "group_name": "25-29",
+            "n": 231,
+            "selection_rate": 0.0649,
+            "tpr": 0.2308,
+            "fpr": 0.0439,
+            "fnr": 0.7692,
+            "accuracy": 0.8745,
+            "mean_predicted_prob": 0.1626
+          },
+          {
+            "group_code": 3,
+            "group_name": "30-34",
+            "n": 312,
+            "selection_rate": 0.0929,
+            "tpr": 0.3953,
+            "fpr": 0.0446,
+            "fnr": 0.6047,
+            "accuracy": 0.8782,
+            "mean_predicted_prob": 0.1912
+          },
+          {
+            "group_code": 4,
+            "group_name": "35-39",
+            "n": 433,
+            "selection_rate": 0.1778,
+            "tpr": 0.4074,
+            "fpr": 0.1015,
+            "fnr": 0.5926,
+            "accuracy": 0.776,
+            "mean_predicted_prob": 0.27
+          },
+          {
+            "group_code": 5,
+            "group_name": "40-44",
+            "n": 511,
+            "selection_rate": 0.2642,
+            "tpr": 0.5329,
+            "fpr": 0.1337,
+            "fnr": 0.4671,
+            "accuracy": 0.7573,
+            "mean_predicted_prob": 0.3374
+          },
+          {
+            "group_code": 6,
+            "group_name": "45-49",
+            "n": 669,
+            "selection_rate": 0.3034,
+            "tpr": 0.6183,
+            "fpr": 0.1262,
+            "fnr": 0.3817,
+            "accuracy": 0.7818,
+            "mean_predicted_prob": 0.3646
+          },
+          {
+            "group_code": 7,
+            "group_name": "50-54",
+            "n": 1069,
+            "selection_rate": 0.3985,
+            "tpr": 0.6525,
+            "fpr": 0.1794,
+            "fnr": 0.3475,
+            "accuracy": 0.7428,
+            "mean_predicted_prob": 0.4279
+          },
+          {
+            "group_code": 8,
+            "group_name": "55-59",
+            "n": 1291,
+            "selection_rate": 0.4911,
+            "tpr": 0.7528,
+            "fpr": 0.25,
+            "fnr": 0.2472,
+            "accuracy": 0.7514,
+            "mean_predicted_prob": 0.4899
+          },
+          {
+            "group_code": 9,
+            "group_name": "60-64",
+            "n": 1490,
+            "selection_rate": 0.549,
+            "tpr": 0.7517,
+            "fpr": 0.2737,
+            "fnr": 0.2483,
+            "accuracy": 0.7409,
+            "mean_predicted_prob": 0.533
+          },
+          {
+            "group_code": 10,
+            "group_name": "65-69",
+            "n": 1643,
+            "selection_rate": 0.6251,
+            "tpr": 0.8178,
+            "fpr": 0.3576,
+            "fnr": 0.1822,
+            "accuracy": 0.7444,
+            "mean_predicted_prob": 0.5782
+          },
+          {
+            "group_code": 11,
+            "group_name": "70-74",
+            "n": 1156,
+            "selection_rate": 0.7128,
+            "tpr": 0.8412,
+            "fpr": 0.4645,
+            "fnr": 0.1588,
+            "accuracy": 0.737,
+            "mean_predicted_prob": 0.6223
+          },
+          {
+            "group_code": 12,
+            "group_name": "75-79",
+            "n": 809,
+            "selection_rate": 0.7305,
+            "tpr": 0.8462,
+            "fpr": 0.5364,
+            "fnr": 0.1538,
+            "accuracy": 0.7033,
+            "mean_predicted_prob": 0.6383
+          },
+          {
+            "group_code": 13,
+            "group_name": "80+",
+            "n": 854,
+            "selection_rate": 0.7646,
+            "tpr": 0.8541,
+            "fpr": 0.6294,
+            "fnr": 0.1459,
+            "accuracy": 0.6616,
+            "mean_predicted_prob": 0.6538
+          }
+        ],
+        "demographic_parity_difference": 0.7352,
+        "equalized_odds_difference": 0.7112,
+        "max_tpr_difference": 0.7112,
+        "max_fpr_difference": 0.6061
+      },
+      "Income": {
+        "group_metrics": [
+          {
+            "group_code": 1,
+            "group_name": "<$10k",
+            "n": 554,
+            "selection_rate": 0.7166,
+            "tpr": 0.8627,
+            "fpr": 0.4518,
+            "fnr": 0.1373,
+            "accuracy": 0.7509,
+            "mean_predicted_prob": 0.6489
+          },
+          {
+            "group_code": 2,
+            "group_name": "$10-15k",
+            "n": 674,
+            "selection_rate": 0.8145,
+            "tpr": 0.9123,
+            "fpr": 0.5744,
+            "fnr": 0.0877,
+            "accuracy": 0.7715,
+            "mean_predicted_prob": 0.7062
+          },
+          {
+            "group_code": 3,
+            "group_name": "$15-20k",
+            "n": 817,
+            "selection_rate": 0.7222,
+            "tpr": 0.8713,
+            "fpr": 0.4377,
+            "fnr": 0.1287,
+            "accuracy": 0.765,
+            "mean_predicted_prob": 0.6342
+          },
+          {
+            "group_code": 4,
+            "group_name": "$20-25k",
+            "n": 971,
+            "selection_rate": 0.6766,
+            "tpr": 0.8483,
+            "fpr": 0.422,
+            "fnr": 0.1517,
+            "accuracy": 0.7394,
+            "mean_predicted_prob": 0.5965
+          },
+          {
+            "group_code": 5,
+            "group_name": "$25-35k",
+            "n": 1239,
+            "selection_rate": 0.6053,
+            "tpr": 0.7735,
+            "fpr": 0.3855,
+            "fnr": 0.2265,
+            "accuracy": 0.7046,
+            "mean_predicted_prob": 0.5601
+          },
+          {
+            "group_code": 6,
+            "group_name": "$35-50k",
+            "n": 1551,
+            "selection_rate": 0.5216,
+            "tpr": 0.7598,
+            "fpr": 0.2737,
+            "fnr": 0.2402,
+            "accuracy": 0.7434,
+            "mean_predicted_prob": 0.4972
+          },
+          {
+            "group_code": 7,
+            "group_name": "$50-75k",
+            "n": 1630,
+            "selection_rate": 0.4503,
+            "tpr": 0.6893,
+            "fpr": 0.2384,
+            "fnr": 0.3107,
+            "accuracy": 0.7276,
+            "mean_predicted_prob": 0.4566
+          },
+          {
+            "group_code": 8,
+            "group_name": "$75k+",
+            "n": 3168,
+            "selection_rate": 0.2999,
+            "tpr": 0.5995,
+            "fpr": 0.1425,
+            "fnr": 0.4005,
+            "accuracy": 0.7686,
+            "mean_predicted_prob": 0.3573
+          }
+        ],
+        "demographic_parity_difference": 0.5146,
+        "equalized_odds_difference": 0.4319,
+        "max_tpr_difference": 0.3128,
+        "max_fpr_difference": 0.4319
+      }
+    }
+  },
+  "comparison_summary": {
+    "Sex": {
+      "demographic_parity_diff_baseline": 0.0572,
+      "demographic_parity_diff_trustworthy": 0.0555,
+      "demographic_parity_change": -0.0017,
+      "equalized_odds_diff_baseline": 0.0512,
+      "equalized_odds_diff_trustworthy": 0.0478,
+      "equalized_odds_change": -0.0034
+    },
+    "Age": {
+      "demographic_parity_diff_baseline": 0.7387,
+      "demographic_parity_diff_trustworthy": 0.7352,
+      "demographic_parity_change": -0.0035,
+      "equalized_odds_diff_baseline": 0.7131,
+      "equalized_odds_diff_trustworthy": 0.7112,
+      "equalized_odds_change": -0.0019
+    },
+    "Income": {
+      "demographic_parity_diff_baseline": 0.5125,
+      "demographic_parity_diff_trustworthy": 0.5146,
+      "demographic_parity_change": 0.0021,
+      "equalized_odds_diff_baseline": 0.4307,
+      "equalized_odds_diff_trustworthy": 0.4319,
+      "equalized_odds_change": 0.0012
+    }
+  }
+}

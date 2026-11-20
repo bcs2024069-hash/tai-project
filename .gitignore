@@ -1,0 +1,125 @@
+# ==============================================================================
+# Git Ignore Configuration: Trustworthy Diabetes Risk-Screening Decision System
+# ==============================================================================
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+Lib/
+Scripts/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+.tox/
+.nox/
+
+# IDEs & Text Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+*.bak
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Streamlit Local Configuration & Secrets
+.streamlit/secrets.toml
+
+# Environment Variables & Secrets
+.env
+.env.*
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# Scratch & Temporary Testing Files
+scratch/
+backup/
+*.backup/
+*.log
+*.tmp
+temp_bisect.*
+temp_output.*
+
+# Local Video Script Generation Artifacts
+*Video_Demonstration*
+
+# LaTeX Auxiliary Compilation Files
+project_report/*.aux
+project_report/*.bbl
+project_report/*.blg
+project_report/*.log
+project_report/*.out
+project_report/*.synctex.gz
+project_report/*.toc
+project_report/*.fls
+project_report/*.fdb_latexmk
+
+# ==============================================================================
+# Explicitly Whitelist Essential Project Artifacts
+# ==============================================================================
+!artifacts/*.joblib
+!artifacts/*.json
+!artifacts/*.csv
+!data/*.csv
+!project_report/*.pdf
+!project_report/*.tex
+!project_report/*.typ
+!project_report/*.docx
+!docs/*.pdf
